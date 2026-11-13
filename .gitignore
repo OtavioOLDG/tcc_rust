@@ -1,0 +1,97 @@
+# ============================================================
+# Rust
+# ============================================================
+
+/target/
+
+
+# ============================================================
+# Variáveis de ambiente / segredos
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+
+# ============================================================
+# Vagrant
+# ============================================================
+
+# Estado local das máquinas Vagrant.
+# Pode conter IDs de VMs, metadados e chaves SSH locais.
+**/.vagrant/
+
+
+# ============================================================
+# k6
+# ============================================================
+
+# Resultados preliminares gerados pelos testes.
+/k6/results/*
+!/k6/results/.gitkeep
+
+
+# ============================================================
+# Arquivos de teste manual da API
+# ============================================================
+
+/teste.jpeg
+/teste.jpg
+/grayscale.png
+
+
+# ============================================================
+# IDEs / editores
+# ============================================================
+
+.idea/
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# Sistema operacional
+# ============================================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ============================================================
+# Logs e arquivos temporários
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.tar
+*.tar.gz
+*.sha256
+/benchmarks/analysis/
+
+# Resultados temporários do k6
+k6/results/*
+!k6/results/.gitkeep
+!k6/results/official/
+!k6/results/official/**
+
+# Resultados temporários dos coletores
+benchmarks/results/*
+!benchmarks/results/.gitkeep
+!benchmarks/results/official/
+!benchmarks/results/official/**
+
+# Preservar as tentativas Docker movidas na organização de 18/10/2026.
+!benchmarks/results/temporary/
+benchmarks/results/temporary/*
+!benchmarks/results/temporary/docker/
+benchmarks/results/temporary/docker/*
+!benchmarks/results/temporary/docker/2026-10-18/
+!benchmarks/results/temporary/docker/2026-10-18/**
+
+.aws
+.agents
+.codex

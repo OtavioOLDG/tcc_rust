@@ -1,0 +1,494 @@
+{
+  "date": "2026-10-18",
+  "status": "complete",
+  "stages": [
+    "temporary_then_verify",
+    "official_one_trio_at_a_time_then_verify"
+  ],
+  "groups": [
+    {
+      "stage": "temporary",
+      "vus": 50,
+      "old_run": 1,
+      "new_run": 21,
+      "files": [
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r1.json",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r21.json",
+          "sha256": "e6b6f44dfeded2884cd48a239115a1f8791a743ad4ff8c3722f0bfb220af3739"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r1-docker.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r21-docker.csv",
+          "sha256": "07a0bc245a1aa4d443406a559dd6b8ff5ad72a1abc74b8faaf70116768aafcab"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r1-vm.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r21-vm.csv",
+          "sha256": "8610e5b9f387f1f5872e302164f3a72003ae29eaf9a2f3bda81d6cbb82021227"
+        }
+      ]
+    },
+    {
+      "stage": "temporary",
+      "vus": 50,
+      "old_run": 2,
+      "new_run": 22,
+      "files": [
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r2.json",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r22.json",
+          "sha256": "443b488f1a6d39364afd44ffecfc0fbf5c4edb667ad7a1d1305efd643466c87f"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r2-docker.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r22-docker.csv",
+          "sha256": "b97642cd03cf525c7cc8d6e145d008ec1a86c458acd70f16303a909525f7c99e"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r2-vm.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r22-vm.csv",
+          "sha256": "9e9ddfd83051278e637ec83c4991ba98f0cc8a114779cf014f4c01f2521146d5"
+        }
+      ]
+    },
+    {
+      "stage": "temporary",
+      "vus": 50,
+      "old_run": 3,
+      "new_run": 23,
+      "files": [
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r3.json",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r23.json",
+          "sha256": "3c6a2d9e2887e717b104f20fc77e25bdf022ff0e3d6d5f4d872fd781e7438b67"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r3-docker.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r23-docker.csv",
+          "sha256": "32a09f35492e606468aee0f448bbf91215006689e2f7ca2e55add8917e216740"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r3-vm.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r23-vm.csv",
+          "sha256": "840d0b82d7fef774e56af2327638a42ae8d1f728b770f219e8c71ce12a45361d"
+        }
+      ]
+    },
+    {
+      "stage": "temporary",
+      "vus": 50,
+      "old_run": 5,
+      "new_run": 24,
+      "files": [
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r5.json",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r24.json",
+          "sha256": "40a000798c94f146066f91077409bfc2f69c0be434bbae5d85b07c95db64aa55"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r5-docker.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r24-docker.csv",
+          "sha256": "152ee7edd0851561cea58fd46b447bd34f704a3caaf202c7f8655aa7287fff26"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r5-vm.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r24-vm.csv",
+          "sha256": "e009b4bc7ad526a2928cd177853df2e7dfe22d143aad330ebb555d74c287ac8d"
+        }
+      ]
+    },
+    {
+      "stage": "temporary",
+      "vus": 50,
+      "old_run": 8,
+      "new_run": 25,
+      "files": [
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r8.json",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/k6/50vus/r25.json",
+          "sha256": "7bb1106f181ac8111328166c30a6b6a182a5424245058572c43af3f47276af77"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r8-docker.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r25-docker.csv",
+          "sha256": "bd7704f7726a0d11a42b1f4119b73cc3fb1c62c06cfaa966daff263e51b8e7a1"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r8-vm.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/50vus/r25-vm.csv",
+          "sha256": "f9422de37c1aa7ee1802679c4b7dce03e4a56c6ec8b3c9f85eb20dff70ec2a1a"
+        }
+      ]
+    },
+    {
+      "stage": "temporary",
+      "vus": 100,
+      "old_run": 2,
+      "new_run": 26,
+      "files": [
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/k6/100vus/r2.json",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/k6/100vus/r26.json",
+          "sha256": "3d13543fde7b9038b31e24decefce820e3e0bbaa00b79ed9522b567e90845019"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/100vus/r2-docker.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/100vus/r26-docker.csv",
+          "sha256": "266e03e69d0d590c37d61ae1e9995b439de5b6db02880e7a8407057b997bc59b"
+        },
+        {
+          "before": "benchmarks/results/temporary/docker/2026-10-18/resources/100vus/r2-vm.csv",
+          "after": "benchmarks/results/temporary/docker/2026-10-18/resources/100vus/r26-vm.csv",
+          "sha256": "9e29b69d34ccb0ac4209f52a3e16313854f2811d51716aa23f68359ff9acd336"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 10,
+      "old_run": 1,
+      "new_run": 1,
+      "files": [
+        {
+          "before": "k6/results/official/docker/10vus/r1.json",
+          "after": "k6/results/official/docker/10vus/r1.json",
+          "sha256": "a3c21a989a3ee6ea4b9ad0170326055631b73e4eb07da9930d2abe2cfdd8d5a8"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r1-docker.csv",
+          "after": "benchmarks/results/official/docker/10vus/r1-docker.csv",
+          "sha256": "ee0a84ed1d7a2a2522373f7ae944a9d57a9ada682ded4eec89c64a30abcf7e8b"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r1-vm.csv",
+          "after": "benchmarks/results/official/docker/10vus/r1-vm.csv",
+          "sha256": "d3b634314c2dadc487c955cefd81e06e5df09e0ec10cf7cfa8445de081458dee"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 10,
+      "old_run": 2,
+      "new_run": 2,
+      "files": [
+        {
+          "before": "k6/results/official/docker/10vus/r2.json",
+          "after": "k6/results/official/docker/10vus/r2.json",
+          "sha256": "0f368c69621c721d9e76716d3384225c9de364d107ac7fde3a7e9fe02a4488a4"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r2-docker.csv",
+          "after": "benchmarks/results/official/docker/10vus/r2-docker.csv",
+          "sha256": "36c1a459e0beaf0cc151c83041ed9ffbc7ac200d69e0185e7bbf0d5053f24914"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r2-vm.csv",
+          "after": "benchmarks/results/official/docker/10vus/r2-vm.csv",
+          "sha256": "4dd4c46f84fe75253c65601655f26f083f10b0861e53432c7881096a8b396d98"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 10,
+      "old_run": 3,
+      "new_run": 3,
+      "files": [
+        {
+          "before": "k6/results/official/docker/10vus/r3.json",
+          "after": "k6/results/official/docker/10vus/r3.json",
+          "sha256": "8b601a4a523fce7efe53f642f2b1cdfeb79d317726be32165f364a7317277c95"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r3-docker.csv",
+          "after": "benchmarks/results/official/docker/10vus/r3-docker.csv",
+          "sha256": "bae23335249aec80cec3b6336cda3415210a16c1de62cc6acb64d39b39cf135c"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r3-vm.csv",
+          "after": "benchmarks/results/official/docker/10vus/r3-vm.csv",
+          "sha256": "36a7781a1e4d01f3387ca937f59567ef0bc100ad055db203c87c3056a73661bb"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 10,
+      "old_run": 4,
+      "new_run": 4,
+      "files": [
+        {
+          "before": "k6/results/official/docker/10vus/r4.json",
+          "after": "k6/results/official/docker/10vus/r4.json",
+          "sha256": "c5d2ba28b0712652d6816f54006cf53a93b5005e19293c6956da0b5aab892bec"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r4-docker.csv",
+          "after": "benchmarks/results/official/docker/10vus/r4-docker.csv",
+          "sha256": "10dcb42f9586f4dc6e55cb230cb88b03ecec20c6ea0b6459acad1a34066ac01b"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r4-vm.csv",
+          "after": "benchmarks/results/official/docker/10vus/r4-vm.csv",
+          "sha256": "b8faba0d3a5fc383c7864882bcd466150de50600ae3fbe0e2669b1250b21b464"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 10,
+      "old_run": 5,
+      "new_run": 5,
+      "files": [
+        {
+          "before": "k6/results/official/docker/10vus/r5.json",
+          "after": "k6/results/official/docker/10vus/r5.json",
+          "sha256": "ebee1cd38138788b9c72791fd300a2b00eb9c5d6bfc17936112e11119d6b5937"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r5-docker.csv",
+          "after": "benchmarks/results/official/docker/10vus/r5-docker.csv",
+          "sha256": "a614426087421171e8e80c4a6bac9a1a005b4145f0a8589df68ff7126f84e6f8"
+        },
+        {
+          "before": "benchmarks/results/official/docker/10vus/r5-vm.csv",
+          "after": "benchmarks/results/official/docker/10vus/r5-vm.csv",
+          "sha256": "e09b2c8e1e74c56e9ee4e946bce31bd2500dbc88fb62d4d9921b2ffe3624fefa"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 50,
+      "old_run": 4,
+      "new_run": 1,
+      "files": [
+        {
+          "before": "k6/results/official/docker/50vus/r4.json",
+          "after": "k6/results/official/docker/50vus/r1.json",
+          "sha256": "7b4df0dbf9f97b0f9cfdf84779ba30d5ea146d6498d87f1c4a9e249e16008bcd"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r4-docker.csv",
+          "after": "benchmarks/results/official/docker/50vus/r1-docker.csv",
+          "sha256": "7dbb950ff40fbe9a0f9864004d95a2a0e7ffdc5eeb80771600083efff6f7c75a"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r4-vm.csv",
+          "after": "benchmarks/results/official/docker/50vus/r1-vm.csv",
+          "sha256": "bcafd5eebc6c62dec7afd7b036098d070987fc639199d137e753f7bd08462c45"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 50,
+      "old_run": 6,
+      "new_run": 2,
+      "files": [
+        {
+          "before": "k6/results/official/docker/50vus/r6.json",
+          "after": "k6/results/official/docker/50vus/r2.json",
+          "sha256": "296ef78e9c6d1540a8b067b1a768b41beb12e4573a061151c3c5ba416ce96b62"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r6-docker.csv",
+          "after": "benchmarks/results/official/docker/50vus/r2-docker.csv",
+          "sha256": "d0b7c6c2516d90f2d09e9fd3678529a802ac244f9f0d5a08bf7a4486f0885688"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r6-vm.csv",
+          "after": "benchmarks/results/official/docker/50vus/r2-vm.csv",
+          "sha256": "40304d2c0bf79c7b7cc6b6a3afec1fa224cb836e78fa63e1a0a12dba848fb0b0"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 50,
+      "old_run": 7,
+      "new_run": 3,
+      "files": [
+        {
+          "before": "k6/results/official/docker/50vus/r7.json",
+          "after": "k6/results/official/docker/50vus/r3.json",
+          "sha256": "af78129150309a1b2c80adf54340d74212af881132bc04fe9dd95e3f93551c2f"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r7-docker.csv",
+          "after": "benchmarks/results/official/docker/50vus/r3-docker.csv",
+          "sha256": "dba9d83e789b53d710678d68db4c6163cb7cd81438ca45aee2d47d81124cd454"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r7-vm.csv",
+          "after": "benchmarks/results/official/docker/50vus/r3-vm.csv",
+          "sha256": "6d1d59c9e292799e2d4679bbfeb70b45af1747fd0e4326b83cc538bc63597bd3"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 50,
+      "old_run": 9,
+      "new_run": 4,
+      "files": [
+        {
+          "before": "k6/results/official/docker/50vus/r9.json",
+          "after": "k6/results/official/docker/50vus/r4.json",
+          "sha256": "5478f6b328b9578beebe9aa01352da61fa3cb1a9bb65008c49820f2167df3f7f"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r9-docker.csv",
+          "after": "benchmarks/results/official/docker/50vus/r4-docker.csv",
+          "sha256": "23a295439f6d43acb7d0cc10ef8fcaa31e890a357509af64849c4c352f668714"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r9-vm.csv",
+          "after": "benchmarks/results/official/docker/50vus/r4-vm.csv",
+          "sha256": "596d43c44868038cdbbfc4c8581aacb8cef6ea2c498dbe8ea8d4e9531b449e1e"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 50,
+      "old_run": 10,
+      "new_run": 5,
+      "files": [
+        {
+          "before": "k6/results/official/docker/50vus/r10.json",
+          "after": "k6/results/official/docker/50vus/r5.json",
+          "sha256": "50840e37ae860ee823595a3b7ed20b075e438d14534e7569dd9b1cf48088d7a4"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r10-docker.csv",
+          "after": "benchmarks/results/official/docker/50vus/r5-docker.csv",
+          "sha256": "808f2f66ba4830b255d8b8b92e86bb75ef5bbe39bfeb0f0d7d9aef165af73b40"
+        },
+        {
+          "before": "benchmarks/results/official/docker/50vus/r10-vm.csv",
+          "after": "benchmarks/results/official/docker/50vus/r5-vm.csv",
+          "sha256": "229d509e2604f732f62788142ee5d402d7a8aac2771fc160186aa2e5e94cfc2c"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 100,
+      "old_run": 1,
+      "new_run": 1,
+      "files": [
+        {
+          "before": "k6/results/official/docker/100vus/r1.json",
+          "after": "k6/results/official/docker/100vus/r1.json",
+          "sha256": "6537a228c4a9af4a3efc8b3d2171d9672ae56254958169cb62360861ce20ec40"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r1-docker.csv",
+          "after": "benchmarks/results/official/docker/100vus/r1-docker.csv",
+          "sha256": "a860176529f23334d74bb87b0c76e15c6665c0f9dea0d80287715a795972198f"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r1-vm.csv",
+          "after": "benchmarks/results/official/docker/100vus/r1-vm.csv",
+          "sha256": "f3e5a1e696d1d51efd5d1fb23f6ae99156d29a6d3e62f42743ae6fd8923a5dd0"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 100,
+      "old_run": 3,
+      "new_run": 2,
+      "files": [
+        {
+          "before": "k6/results/official/docker/100vus/r3.json",
+          "after": "k6/results/official/docker/100vus/r2.json",
+          "sha256": "7f36aa4e4467a83d0f778b80d12c8ee8a99d0e8df4457435ee5fc6e9ccf616a8"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r3-docker.csv",
+          "after": "benchmarks/results/official/docker/100vus/r2-docker.csv",
+          "sha256": "0d614ee894f6e6a323827fb9283b8299c732e586efc2383de744086ad89f5429"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r3-vm.csv",
+          "after": "benchmarks/results/official/docker/100vus/r2-vm.csv",
+          "sha256": "62f4e9a35ba3660b93e0636f1bed47930fb0ba4bd66ae892cacf43ebad5f669e"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 100,
+      "old_run": 4,
+      "new_run": 3,
+      "files": [
+        {
+          "before": "k6/results/official/docker/100vus/r4.json",
+          "after": "k6/results/official/docker/100vus/r3.json",
+          "sha256": "35db849c04437a4feb41e7cbdba77fe4c6a2aef56e4734127a84b75131807e91"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r4-docker.csv",
+          "after": "benchmarks/results/official/docker/100vus/r3-docker.csv",
+          "sha256": "a57add76f92abdea865040ece24b54f3e9bb3649d2aa8ce246a9c88d4422f898"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r4-vm.csv",
+          "after": "benchmarks/results/official/docker/100vus/r3-vm.csv",
+          "sha256": "eb0762ac082fb9841d8aa510a959cca563c6b4aadbcc0715af818755e08bec2c"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 100,
+      "old_run": 5,
+      "new_run": 4,
+      "files": [
+        {
+          "before": "k6/results/official/docker/100vus/r5.json",
+          "after": "k6/results/official/docker/100vus/r4.json",
+          "sha256": "3db349868bdacd08f4e69ffcc4f5cc1a8e44d43c466e07e26dbc54b26b440718"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r5-docker.csv",
+          "after": "benchmarks/results/official/docker/100vus/r4-docker.csv",
+          "sha256": "9ab446aeb77e528181f32be72315ad61d49583e77bf912cc95e1397d8cc9e3ef"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r5-vm.csv",
+          "after": "benchmarks/results/official/docker/100vus/r4-vm.csv",
+          "sha256": "d8917653c881fedc1605b2f627bff35359bd3ee24211a919efec35d2d51cdb54"
+        }
+      ]
+    },
+    {
+      "stage": "official",
+      "vus": 100,
+      "old_run": 6,
+      "new_run": 5,
+      "files": [
+        {
+          "before": "k6/results/official/docker/100vus/r6.json",
+          "after": "k6/results/official/docker/100vus/r5.json",
+          "sha256": "86d056d7e67dd8059ca0c7620a776c2b6a673ef982c595c80ad13d65aa047636"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r6-docker.csv",
+          "after": "benchmarks/results/official/docker/100vus/r5-docker.csv",
+          "sha256": "130bdbdfd2d2802293b4b55348e2a77a95e48ef8223336968400809445e95037"
+        },
+        {
+          "before": "benchmarks/results/official/docker/100vus/r6-vm.csv",
+          "after": "benchmarks/results/official/docker/100vus/r5-vm.csv",
+          "sha256": "7367b5475ab11b06696e4fa898c038110ed49f4f5cbff4c600218b613b63ed49"
+        }
+      ]
+    }
+  ],
+  "verification": "Etapa temporária aprovada antes da oficial; cada trio oficial conferido por SHA-256 após sua renomeação."
+}

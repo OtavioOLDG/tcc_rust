@@ -1,0 +1,69 @@
+{
+  "campaign_id": "b124b618764740d391a1783dc527d8c3",
+  "complete": true,
+  "environment": "wasm",
+  "error": null,
+  "expected_repetitions": 2,
+  "files": [
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/conditioning/wasm/pilot.json",
+      "phase": "conditioning",
+      "publication_confirmed": true,
+      "sample_id": "52e2fe6fcc33456c92e2e890412b1780",
+      "sample_valid": true,
+      "sha256": "a97ee0f36fab204150654b6fb3233df9c05a5db420f5f8b01d78d51dea92a586",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/pilot/wasm/r01.json",
+      "phase": "pilot",
+      "publication_confirmed": true,
+      "sample_id": "2241344ad43846dfbf2d848d115b63fb",
+      "sample_valid": true,
+      "sha256": "4b04316be91d5db0e7b058cba3bae26116dafbc570bb3c76bf85836249717590",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/pilot/wasm/r02.json",
+      "phase": "pilot",
+      "publication_confirmed": true,
+      "sample_id": "5b54a60e2ba64feb962c2626633ba6c9",
+      "sample_valid": true,
+      "sha256": "cd65b2b38a9e8367aea76f56796b7931ab3cfcf5c76de573b18c5aeebb017659",
+      "success": true
+    }
+  ],
+  "finished_at": "2026-10-20T22:56:52.904063+00:00",
+  "harness_sha256": "95d135af7164f0e4c36bd412ca3ccc4e12846b9be70034b7bdbc86c7b9c8bdcc",
+  "host": {
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "cpu_count": 2,
+    "hostname": "benchmark-wasm",
+    "loadavg_before_stabilization": "0.01 0.05 0.17 1/120 1289",
+    "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+    "python": "3.10.12 (main, Jul 15 2026, 23:40:17) [GCC 11.4.0]",
+    "uid": 1000,
+    "uname": [
+      "Linux",
+      "benchmark-wasm",
+      "5.15.0-190-generic",
+      "#200-Ubuntu SMP Fri Aug 7 15:06:04 UTC 2026",
+      "x86_64",
+      "x86_64"
+    ]
+  },
+  "measurement_definition": "lançamento de processo/runtime até resposta HTTP completa e válida; host e caches aquecidos por uma execução de condicionamento; Docker inclui sudo, CLI, criação e publicação de porta",
+  "mode": "pilot",
+  "real_failures": 0,
+  "runtime_provenance": {
+    "spin_executable_sha256": "4d34d94bdc32ba79f389cb184d2b578ca4710908530e7dfe911f7aa3869bcef0",
+    "spin_toml_sha256": "549c60ca843eb894b76995c705b657979e11c03d9c6aeb9d261d4ee67821de09",
+    "spin_version": "spin 4.1.0 (c0b3726 2026-08-25)"
+  },
+  "schema_version": 2,
+  "started_at": "2026-10-20T22:55:41.296568+00:00",
+  "stop_signal": null
+}

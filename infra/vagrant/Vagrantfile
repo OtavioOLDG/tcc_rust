@@ -1,0 +1,60 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/jammy64"
+  config.vm.box_version = "20241002.0.0"
+
+  # Desabilita a pasta compartilhada padrão /vagrant
+  config.vm.synced_folder ".", "/vagrant", disabled: true
+
+  machines = {
+    "local" => {
+      hostname: "benchmark-local",
+      ip: "192.168.56.10"
+    },
+    "docker" => {
+      hostname: "benchmark-docker",
+      ip: "192.168.56.11"
+    },
+    "wasm" => {
+      hostname: "benchmark-wasm",
+      ip: "192.168.56.12"
+    }
+  }
+
+  machines.each do |name, settings|
+    config.vm.define name do |machine|
+      machine.vm.hostname = settings[:hostname]
+
+      machine.vm.network "private_network",
+        ip: settings[:ip]
+
+      # Executado nas três VMs
+      machine.vm.provision "shell",
+        path: "provisioning/common.sh"
+
+      # Executado somente na VM local
+      if name == "local"
+        machine.vm.provision "shell",
+          path: "provisioning/local.sh"
+      end
+
+      # Executado somente na VM Docker
+      if name == "docker"
+        machine.vm.provision "shell",
+          path: "provisioning/docker.sh"
+      end
+
+      # Executado somente na VM WebAssembly
+      if name == "wasm"
+        machine.vm.provision "shell",
+          path: "provisioning/wasm.sh"
+      end
+
+      machine.vm.provider "virtualbox" do |vb|
+        vb.name = "tcc-#{name}"
+        vb.memory = 4096
+        vb.cpus = 2
+        vb.gui = false
+      end
+    end
+  end
+end

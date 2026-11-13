@@ -1,0 +1,65 @@
+{
+  "campaign_id": "b0cb0a709e45443a9823708f9c1fa9be",
+  "complete": true,
+  "environment": "local",
+  "error": null,
+  "expected_repetitions": 2,
+  "files": [
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/conditioning/local/pilot.json",
+      "phase": "conditioning",
+      "publication_confirmed": true,
+      "sample_id": "e7542a5f8ba74905aeb2121080550a19",
+      "sample_valid": true,
+      "sha256": "5f47867b1d578969c6af6801c7e2d228c779e7d544ee9667bfd5c029a75ea054",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/pilot/local/r01.json",
+      "phase": "pilot",
+      "publication_confirmed": true,
+      "sample_id": "886518a62026401f996e26a81860244e",
+      "sample_valid": true,
+      "sha256": "200128e0ccbb359e6cc3776d53192014e3bcbe33e1645f24f46664925ce71281",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/pilot/local/r02.json",
+      "phase": "pilot",
+      "publication_confirmed": true,
+      "sample_id": "b5212f6a0b62458cb2ad698c14fbd4d6",
+      "sample_valid": true,
+      "sha256": "ca5d254956c65c3e0ee311e4f30c33a9265659030c4e32ffe7b304abf89e3bbc",
+      "success": true
+    }
+  ],
+  "finished_at": "2026-10-21T00:13:34.484352+00:00",
+  "harness_sha256": "95d135af7164f0e4c36bd412ca3ccc4e12846b9be70034b7bdbc86c7b9c8bdcc",
+  "host": {
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "cpu_count": 2,
+    "hostname": "benchmark-local",
+    "loadavg_before_stabilization": "0.10 0.12 0.08 1/120 1872",
+    "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "uid": 1000,
+    "uname": [
+      "Linux",
+      "benchmark-local",
+      "5.15.0-191-generic",
+      "#201-Ubuntu SMP Fri Aug 7 18:39:04 UTC 2026",
+      "x86_64",
+      "x86_64"
+    ]
+  },
+  "measurement_definition": "lançamento de processo/runtime até resposta HTTP completa e válida; host e caches aquecidos por uma execução de condicionamento; Docker inclui sudo, CLI, criação e publicação de porta",
+  "mode": "pilot",
+  "real_failures": 0,
+  "runtime_provenance": {},
+  "schema_version": 2,
+  "started_at": "2026-10-21T00:12:24.315591+00:00",
+  "stop_signal": null
+}

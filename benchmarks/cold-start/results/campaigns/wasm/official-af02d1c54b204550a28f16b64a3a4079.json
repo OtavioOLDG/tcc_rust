@@ -1,0 +1,321 @@
+{
+  "campaign_id": "af02d1c54b204550a28f16b64a3a4079",
+  "complete": true,
+  "environment": "wasm",
+  "error": null,
+  "expected_repetitions": 30,
+  "files": [
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/conditioning/wasm/official.json",
+      "phase": "conditioning",
+      "publication_confirmed": true,
+      "sample_id": "4c6c664e216542a88a093f4553baf700",
+      "sample_valid": true,
+      "sha256": "fb86ca2a3e1d04a5ab97d1f7c163a92c942547d0605f7e9f943f3e040f6e5d13",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r01.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "91063b68d4c943b98ad99b9b011033ce",
+      "sample_valid": true,
+      "sha256": "5301d09fca2e89c6247dfa68d95b87741111c7e47a87c3db3a9fc3c7fb18b369",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r02.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "385f172f7cdb482ea697a166b22cfc05",
+      "sample_valid": true,
+      "sha256": "18f141eb7a1fd7da5a1bbd47209d20df480174a596296b2cba5f2ebbbe43f8b2",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r03.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "4f5580c61a794980bd3224823dd3cf82",
+      "sample_valid": true,
+      "sha256": "55a2c3d516e62389b7d77e2d86c6e2cb9ce577dd3e586539410dd615fef219c8",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r04.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "19418b6ed6e8472bb7820ee37e55ecce",
+      "sample_valid": true,
+      "sha256": "13f2bf7a0921f3e7c9d83966146ae8fac645bd6b277d840873f0b8012952816a",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r05.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "0dd288347e904aaa8828fe08b6ee47d0",
+      "sample_valid": true,
+      "sha256": "6fda4cc4ed8b0796ef0b18f2950513e1f4e721d5789e4066b1d3d6baf7dca7a9",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r06.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "efc79861ffb244c3814832bd0da70252",
+      "sample_valid": true,
+      "sha256": "9511e05d1c346cfd486de0413dc78c093fb6166b93ac1d2adad13935e5ccd97c",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r07.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "cb55fc8d1af148859f7f4eb733e14880",
+      "sample_valid": true,
+      "sha256": "552d5006006d1eaeb0488e07d33db14f7bd335248958ba03526e1fd9c3179df4",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r08.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "5944a2e960e44194b9d02c77455cf352",
+      "sample_valid": true,
+      "sha256": "ec6786cd88c281b8544b02f7d12b32e0943cd90302fb8f9665912ed668f6ea4b",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r09.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "66d51067f2ac4bafb61440e81ab54573",
+      "sample_valid": true,
+      "sha256": "883d60ea1f6322613fce1621ef572966f81cd95936efb39ab204daa9bd70518a",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r10.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "ae2a4823da7e4c8880fd58b26c7a7940",
+      "sample_valid": true,
+      "sha256": "c48ce602b8a4ea3da0aad08bb9046f5f0f8c530bd0d1af5d4679abed7f87e765",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r11.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "b7c4d81d7a0348a7a704c5a57589fe25",
+      "sample_valid": true,
+      "sha256": "6fc003e561ee60907fd60a4f62eaa98eeebb321cbe86cbf3abc641435ae25eb5",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r12.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "27014e7452774187a2bfb4ba76eb66a0",
+      "sample_valid": true,
+      "sha256": "cb5cdc960d6a34cf9f281ab306527de2a892edd7a4af1fce4363df61eb1142e3",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r13.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "56bd3c10191b42feab9af4b908bebaba",
+      "sample_valid": true,
+      "sha256": "b9ba71f394085bed1e65d04802bab2c05d57c0bfc8de098f8b2997559c683f9f",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r14.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "f3e12a146f0e4c7bbaed0770609db1c5",
+      "sample_valid": true,
+      "sha256": "40c03acb06a1e7c7028354ad57e95b8d1ae78ec2cdc82233d90fabc8b2c0b3bc",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r15.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "f2a5959ee1564e4aa697d708286b2213",
+      "sample_valid": true,
+      "sha256": "98f617fa7a7a7c75391087b22929e8a44bfee92252b82116e7db8006554e45c9",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r16.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "b610202e02a64b099361f4907ec63d86",
+      "sample_valid": true,
+      "sha256": "66d8f02839db7395dc061c54c595864ca6d27505581ecf9aa136e579697016a2",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r17.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "60907ed734074ea3af34faab3720019d",
+      "sample_valid": true,
+      "sha256": "c4048adfa778b9757eeccff05dc8d079df4b832bece326ebfcddb1b7befd1ea8",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r18.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "bf869bb7323042e991aa58435dbbd063",
+      "sample_valid": true,
+      "sha256": "2d0f3b609cee79be7229988995f5c8a757a70eecc1ea6bdae96765eddbb5032b",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r19.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "4224417e5d6e4a39bc3e323f882ce971",
+      "sample_valid": true,
+      "sha256": "e7d4c08e8fc4041451b7f2916c66fda576c930bf8b27ae68f977ee7394a2101b",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r20.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "70dfeb7b951547f1939836a4763bbff4",
+      "sample_valid": true,
+      "sha256": "8154bf28f8b9139ba214875e62b6cd357ddc250ab5815f1aa6db5e476d945e2d",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r21.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "a494ac96b1cb4ff58b7648f3fcac5816",
+      "sample_valid": true,
+      "sha256": "f65582b2635c368f2f2ee7fb9b324d528471b102266429ffb39b53aeed34531b",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r22.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "50154e2d2b034dec95bc428ba8325c0a",
+      "sample_valid": true,
+      "sha256": "5930e76a291c17b6398a44dbf6cee101f595e716f2a604be44cafdb4d45e2039",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r23.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "37ae45f9171a4607a9d6f052be9e97d8",
+      "sample_valid": true,
+      "sha256": "98f75d7f542b96608cd514a905c7e6fe79e7af5f88e4a14e9fafb8c63c14d939",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r24.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "192ad2fb4a214f2caee5a4e23100dcd0",
+      "sample_valid": true,
+      "sha256": "15f97e86851cb867587692148d61d8005ac5ac3fbc638cca374e850f277fc7d4",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r25.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "a0a4c67c02d845b2a25e13b53584e14b",
+      "sample_valid": true,
+      "sha256": "0b8705c0b9fbfada6c91916bf4a326e3a4ced5b82f570bd64960a7687994bbb0",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r26.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "d8c98ec397b14602a568933af6f804c1",
+      "sample_valid": true,
+      "sha256": "2954d20d153355ada90b1e130335ff51888d21bbc1c26bd82bb8aa6c1f5c72fc",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r27.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "cc28a614dc594bce9c7039a854097761",
+      "sample_valid": true,
+      "sha256": "1e772a17b0d522e94192664eb4fde0c07616e226a73019eacbaeb001707a0339",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r28.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "f1165c8a5f354f56a0f4ebbb50001045",
+      "sample_valid": true,
+      "sha256": "0635b1c15500c210e13368a2da7be60cb9c5aac8580c81e9c18f4e43164b0468",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r29.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "c32fbf2bbdea4cd68155a7254c2db9b6",
+      "sample_valid": true,
+      "sha256": "bf3029fcde86c2539627b2af2156205fff29ad7965364d2b8d85bc2fbb25a062",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/wasm/r30.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "cabf2d912ca74babb36abaee46cf8615",
+      "sample_valid": true,
+      "sha256": "3111e9fcf3811e8298d7b6af08aceadaa70c7c761bc333378e0b861306ab997f",
+      "success": true
+    }
+  ],
+  "finished_at": "2026-10-21T23:53:24.498021+00:00",
+  "harness_sha256": "95d135af7164f0e4c36bd412ca3ccc4e12846b9be70034b7bdbc86c7b9c8bdcc",
+  "host": {
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "cpu_count": 2,
+    "hostname": "benchmark-wasm",
+    "loadavg_before_stabilization": "0.14 0.12 0.05 1/556 2370",
+    "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+    "python": "3.10.12 (main, Jul 15 2026, 23:40:17) [GCC 11.4.0]",
+    "uid": 1000,
+    "uname": [
+      "Linux",
+      "benchmark-wasm",
+      "5.15.0-190-generic",
+      "#200-Ubuntu SMP Fri Aug 7 15:06:04 UTC 2026",
+      "x86_64",
+      "x86_64"
+    ]
+  },
+  "measurement_definition": "lançamento de processo/runtime até resposta HTTP completa e válida; host e caches aquecidos por uma execução de condicionamento; Docker inclui sudo, CLI, criação e publicação de porta",
+  "mode": "official",
+  "real_failures": 0,
+  "runtime_provenance": {
+    "spin_executable_sha256": "4d34d94bdc32ba79f389cb184d2b578ca4710908530e7dfe911f7aa3869bcef0",
+    "spin_toml_sha256": "549c60ca843eb894b76995c705b657979e11c03d9c6aeb9d261d4ee67821de09",
+    "spin_version": "spin 4.1.0 (c0b3726 2026-08-25)"
+  },
+  "schema_version": 2,
+  "started_at": "2026-10-21T23:49:48.484913+00:00",
+  "stop_signal": null
+}

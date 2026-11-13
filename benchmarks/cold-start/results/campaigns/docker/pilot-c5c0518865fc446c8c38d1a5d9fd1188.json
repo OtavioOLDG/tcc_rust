@@ -1,0 +1,151 @@
+{
+  "campaign_id": "c5c0518865fc446c8c38d1a5d9fd1188",
+  "complete": true,
+  "environment": "docker",
+  "error": null,
+  "expected_repetitions": 2,
+  "files": [
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/conditioning/docker/pilot.json",
+      "phase": "conditioning",
+      "publication_confirmed": true,
+      "sample_id": "3d059c254fab49b3b0fa9cf7a925bd65",
+      "sample_valid": true,
+      "sha256": "bd5648d8dd584f072e88350cab07e8db83f1c8d9597da0b464044d317b521d7d",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/pilot/docker/r01.json",
+      "phase": "pilot",
+      "publication_confirmed": true,
+      "sample_id": "e82ee69f58ae4c6caebd84d3ecbb6a03",
+      "sample_valid": true,
+      "sha256": "a86c5747fc26440ed96b108aa332bb24bce482e24c9b459f65e5c2b7e0ae7e07",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/pilot/docker/r02.json",
+      "phase": "pilot",
+      "publication_confirmed": true,
+      "sample_id": "1baf05e4d7d548ae970e6a2e9ec390af",
+      "sample_valid": true,
+      "sha256": "d76a10e5293cff6cbe67851e937bca5bbe43deae78e826b169dda18e8c1d3d39",
+      "success": true
+    }
+  ],
+  "finished_at": "2026-10-20T23:34:03.442559+00:00",
+  "harness_sha256": "95d135af7164f0e4c36bd412ca3ccc4e12846b9be70034b7bdbc86c7b9c8bdcc",
+  "host": {
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "cpu_count": 2,
+    "hostname": "benchmark-docker",
+    "loadavg_before_stabilization": "0.18 4.22 3.70 1/143 1783",
+    "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+    "python": "3.10.12 (main, Jul 15 2026, 23:40:17) [GCC 11.4.0]",
+    "uid": 1000,
+    "uname": [
+      "Linux",
+      "benchmark-docker",
+      "5.15.0-190-generic",
+      "#200-Ubuntu SMP Fri Aug 7 15:06:04 UTC 2026",
+      "x86_64",
+      "x86_64"
+    ]
+  },
+  "measurement_definition": "lançamento de processo/runtime até resposta HTTP completa e válida; host e caches aquecidos por uma execução de condicionamento; Docker inclui sudo, CLI, criação e publicação de porta",
+  "mode": "pilot",
+  "real_failures": 0,
+  "runtime_provenance": {
+    "docker_binary_hash_verified": false,
+    "docker_image": {
+      "architecture": "amd64",
+      "cmd": null,
+      "entrypoint": [
+        "/app/rust-benchmark-api"
+      ],
+      "env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "RUST_BENCHMARK_ADDRESS=0.0.0.0:3000"
+      ],
+      "id": "sha256:1df15a150099d4d5258f2b68851debcfdd9e6295766a1f9ff76c347cab948015",
+      "os": "linux",
+      "user": "10001:10001"
+    },
+    "docker_version": {
+      "Client": {
+        "ApiVersion": "1.55",
+        "Arch": "amd64",
+        "BuildTime": "Wed Aug  5 18:28:48 2026",
+        "Context": "default",
+        "DefaultAPIVersion": "1.55",
+        "GitCommit": "a7dcaa6",
+        "GoVersion": "go1.26.5",
+        "Os": "linux",
+        "Platform": {
+          "Name": "Docker Engine - Community"
+        },
+        "Version": "29.7.2"
+      },
+      "Server": {
+        "ApiVersion": "1.55",
+        "Arch": "amd64",
+        "BuildTime": "2026-08-05T18:28:48.000000000+00:00",
+        "Components": [
+          {
+            "Details": {
+              "ApiVersion": "1.55",
+              "Arch": "amd64",
+              "BuildTime": "Wed Aug  5 18:28:48 2026",
+              "Experimental": "false",
+              "GitCommit": "6a43e3d",
+              "GoVersion": "go1.26.5",
+              "KernelVersion": "5.15.0-190-generic",
+              "MinAPIVersion": "1.40",
+              "Module": "github.com/moby/moby/v2",
+              "ModuleVersion": "v2.0.0+unknown",
+              "Os": "linux"
+            },
+            "Name": "Engine",
+            "Version": "29.7.2"
+          },
+          {
+            "Details": {
+              "GitCommit": "db8809540e1a7a9da5d518876894933ff55692ab"
+            },
+            "Name": "containerd",
+            "Version": "v2.3.4"
+          },
+          {
+            "Details": {
+              "GitCommit": "v1.4.3-0-gbb14dabe"
+            },
+            "Name": "runc",
+            "Version": "1.4.3"
+          },
+          {
+            "Details": {
+              "GitCommit": "de40ad0"
+            },
+            "Name": "docker-init",
+            "Version": "0.19.0"
+          }
+        ],
+        "GitCommit": "6a43e3d",
+        "GoVersion": "go1.26.5",
+        "KernelVersion": "5.15.0-190-generic",
+        "MinAPIVersion": "1.40",
+        "Os": "linux",
+        "Platform": {
+          "Name": "Docker Engine - Community"
+        },
+        "Version": "29.7.2"
+      }
+    }
+  },
+  "schema_version": 2,
+  "started_at": "2026-10-20T23:32:33.361497+00:00",
+  "stop_signal": null
+}

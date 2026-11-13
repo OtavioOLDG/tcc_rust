@@ -1,0 +1,16 @@
+spin_manifest_version = 2
+
+[application]
+name = "rust-benchmark-api"
+version = "0.1.0"
+
+[[trigger.http]]
+route = "/..."
+component = "rust-benchmark-api"
+
+[component.rust-benchmark-api]
+source = "target/wasm32-wasip2/release/rust_benchmark_api.wasm"
+allowed_outbound_hosts = []
+
+[component.rust-benchmark-api.build]
+command = "cargo build --target wasm32-wasip2 --release --locked --lib"

@@ -1,0 +1,146 @@
+{
+    "root_group": {
+        "groups": {},
+        "checks": {
+                "status 200": {
+                    "passes": 90593,
+                    "fails": 0,
+                    "name": "status 200",
+                    "path": "::status 200",
+                    "id": "fad9fa412b86fcb03bee97c80dcd61f1"
+                },
+                "Content-Type image/png": {
+                    "fails": 0,
+                    "name": "Content-Type image/png",
+                    "path": "::Content-Type image/png",
+                    "id": "c211b3b1ab8af0987a1d750b89463e0c",
+                    "passes": 90593
+                }
+            },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "metrics": {
+        "http_req_receiving": {
+            "p(99)": 2.8984680000000034,
+            "avg": 0.8360983034009258,
+            "min": 0,
+            "med": 0.7821,
+            "max": 63.1565,
+            "p(90)": 1.5536,
+            "p(95)": 1.9156
+        },
+        "data_sent": {
+            "count": 1877177553,
+            "rate": 6256643.2254485665
+        },
+        "http_reqs": {
+            "count": 90593,
+            "rate": 301.9469728994048
+        },
+        "data_received": {
+            "count": 5071667919,
+            "rate": 16903897.383827377
+        },
+        "http_req_sending": {
+            "max": 24.6366,
+            "p(90)": 0.5579,
+            "p(95)": 0.5795,
+            "p(99)": 0.9795,
+            "avg": 0.14939069906063468,
+            "min": 0,
+            "med": 0
+        },
+        "vus": {
+            "value": 10,
+            "min": 10,
+            "max": 10
+        },
+        "http_req_blocked": {
+            "avg": 0.007323017230911869,
+            "min": 0,
+            "med": 0,
+            "max": 4.4555,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0.5093
+        },
+        "iterations": {
+            "rate": 301.9469728994048,
+            "count": 90593
+        },
+        "vus_max": {
+            "value": 10,
+            "min": 10,
+            "max": 10
+        },
+        "http_req_connecting": {
+            "min": 0,
+            "med": 0,
+            "max": 4.4555,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "avg": 0.00038425043877562287
+        },
+        "checks": {
+            "passes": 181186,
+            "fails": 0,
+            "value": 1
+        },
+        "iteration_duration": {
+            "max": 213.3547,
+            "p(90)": 51.87042,
+            "p(95)": 59.01915999999999,
+            "p(99)": 76.86930000000001,
+            "avg": 33.099072337818775,
+            "min": 3.5188,
+            "med": 32.1345
+        },
+        "http_req_waiting": {
+            "min": 2.9238,
+            "med": 30.9927,
+            "max": 212.9483,
+            "p(90)": 50.54564,
+            "p(95)": 57.642259999999986,
+            "p(99)": 75.31871200000003,
+            "avg": 31.93064807104299
+        },
+        "http_req_duration": {
+            "avg": 32.916137073504984,
+            "min": 3.4512,
+            "med": 31.9649,
+            "max": 213.3547,
+            "p(90)": 51.66944,
+            "p(95)": 58.78761999999998,
+            "p(99)": 76.53922400000002
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 90593,
+            "thresholds": {
+                "rate==0": false
+            },
+            "value": 0
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(95)": 58.78761999999998,
+            "p(99)": 76.53922400000002,
+            "avg": 32.916137073504984,
+            "min": 3.4512,
+            "med": 31.9649,
+            "max": 213.3547,
+            "p(90)": 51.66944
+        },
+        "http_req_tls_handshaking": {
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "avg": 0
+        }
+    }
+}

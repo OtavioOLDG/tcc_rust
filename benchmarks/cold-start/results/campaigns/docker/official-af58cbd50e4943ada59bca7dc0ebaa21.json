@@ -1,0 +1,403 @@
+{
+  "campaign_id": "af58cbd50e4943ada59bca7dc0ebaa21",
+  "complete": true,
+  "environment": "docker",
+  "error": null,
+  "expected_repetitions": 30,
+  "files": [
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/conditioning/docker/official.json",
+      "phase": "conditioning",
+      "publication_confirmed": true,
+      "sample_id": "9ed19d2a12404659a60095d26805bdeb",
+      "sample_valid": true,
+      "sha256": "440c40787ca7ade5d7a7f374b278eb861a9108719587d988d28f7e709c87193d",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r01.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "cde2cae740cf441f895f42944984ad32",
+      "sample_valid": true,
+      "sha256": "9234d5511b005a508e6ebc9eadf4d6bf3d3280c8f0eb6c2dc4a6a737317fafa4",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r02.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "b7d347ded03e42c598b71dc77cf5c71e",
+      "sample_valid": true,
+      "sha256": "dea7ce62d4bd437370b46737c59ef656571a76c2171006f21d616128d8f57919",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r03.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "3405b99072a942bea855fdd3842eb91e",
+      "sample_valid": true,
+      "sha256": "e583af95c95bc66e57bc35c12a9d5a76fc5393b15a375cf44c1cf58b92c641bf",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r04.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "2f5b5ce9b7eb4502bc61f72157ebf7e1",
+      "sample_valid": true,
+      "sha256": "e43562acc4d43951384b3f23fe865d31ba13e6e4c1285f61313ae2135d491ec5",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r05.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "976db2ed69894ff69f9e02ab163d1e09",
+      "sample_valid": true,
+      "sha256": "efaf59c16c2e97509bd6fc5979792435d0531a7d2813f5341a7cd2dcc7d3e833",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r06.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "e2425dcbc5174014ae6767b4eacd438a",
+      "sample_valid": true,
+      "sha256": "73276389c4257fb46a2ab6d2c9cea00b6e90806bcb7ac0f9adfe6cb9fbf30bfb",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r07.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "0e9c995ad1144949a3eb89152baa3c27",
+      "sample_valid": true,
+      "sha256": "cd5a1555527dfcbb46fca4c0817df759d9da198c84e249e2bddb416881fb33a8",
+      "success": false
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r08.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "75059d6035274c73875b0bea2cc6e3fe",
+      "sample_valid": true,
+      "sha256": "05de50cd67787d0f86e1aa7e41b1cd961dd482cf3c2541c6bb4f5e51e79a5d99",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r09.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "bf8bd86e239a4f08b1c262cc6fa4e0ac",
+      "sample_valid": true,
+      "sha256": "b9decf7a0ff8d8ae6c14dcc54c805e776c73cec0769e35e94f8b61c4f9ff6dd0",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r10.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "9163617cc9a34d9ba1ef8d99a68b9a0c",
+      "sample_valid": true,
+      "sha256": "531b717741f60e660a792d3c282295c26429310a22ccfa9ddcc62befd4b839ce",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r11.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "76668cefbd1446bcb65fd10e1eff37a3",
+      "sample_valid": true,
+      "sha256": "bc7395c89859134b4354e05c18bad90416261f82409a08a50f5e06a976113fac",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r12.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "5f53d1d40da64d17946337b14dd17824",
+      "sample_valid": true,
+      "sha256": "3145c4cd676bcdbdf6852f51099114999ec6c2d2fe4fbf86db4998c3447b0a0b",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r13.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "fd52c5cdbac44dcea427982969b23d38",
+      "sample_valid": true,
+      "sha256": "152a9ffc89913d2b4ad868d895bb532ba85b060985c04b29459bf6bcf2e7b36e",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r14.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "3598fa49d7d649c09b64a8f8bb094c68",
+      "sample_valid": true,
+      "sha256": "5964f2958219adcc98de9628b64ffbf1a60b0bcb9292931f86614dd7e6bbefc9",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r15.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "4b9e81e5384e479c9f89e2c70b1c987b",
+      "sample_valid": true,
+      "sha256": "159c51f78f1f12ade467bb7c6e3977bdf958e042015808f82ca9a0bc14ec6edd",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r16.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "57fecaf993de4b30bea933919bfcf48f",
+      "sample_valid": true,
+      "sha256": "3945ad464e70eb2366c7d97b0f2d722231f92db50041cdc06732589f8bb89e4c",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r17.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "375d738e5fe3484398308547021a936e",
+      "sample_valid": true,
+      "sha256": "932acf3e7fd2b3caade93830ba0328b299445a77fa8ef885d8f7bf132b41a4c2",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r18.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "ea7e8aa3ace44c3dbd72a2198e50ddd9",
+      "sample_valid": true,
+      "sha256": "23ff1a1e785e4db6e72eaee4b8eb19fbb608a03528a07daa5a10112eb4d53265",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r19.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "482390a16b8340bd8f6939f68fb01ccc",
+      "sample_valid": true,
+      "sha256": "ca75bb81e4f6e91db025462d9d6a90ab34b2996f2eadc817151b63f676ae181c",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r20.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "ec3e52852843487d8ff1ae2336a390ff",
+      "sample_valid": true,
+      "sha256": "2b6450366ab17ba67c51269beffbb8591689eb7520f5ffff69072fc3195f5654",
+      "success": false
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r21.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "e280ec3d6dfc4832821939a78798caab",
+      "sample_valid": true,
+      "sha256": "a9d1544c9a8a37546dd622cc0895fa1f8969793a18f13c064c68d915a6dffae2",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r22.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "ff79ad0392ca481cbc58e6c870c679a2",
+      "sample_valid": true,
+      "sha256": "b20ed7730ba864d5ed10759fd832fa0583515062deea15fde9b0b449619583d0",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r23.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "f34fa4e8ae2b4be8811f78880256efc5",
+      "sample_valid": true,
+      "sha256": "c791b138c31001ccd3833f6d9199666a14e30cd4a9c3c3d629b6fd7ead82dc93",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r24.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "28837773db8c47548f2f07e91b1aa650",
+      "sample_valid": true,
+      "sha256": "8ed0b8cb7a864a6fdb6a38ae22cfe2c8acc3edfe7fef41be4ff37af76dc85e18",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r25.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "6c32fe3f7afa45fea120cf5c0f6cf524",
+      "sample_valid": true,
+      "sha256": "2cf69cea4335e2ba8481d297ee0217c570b1974eea2cfc3c25e9c3aa70f1323f",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r26.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "84f27eb309284467b61184f030243800",
+      "sample_valid": true,
+      "sha256": "f507d96fd729da862decfca9459f5a72cd11d45e719f696f3fb407b95bb553da",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r27.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "6c096bd4542e43dc84854db728d58844",
+      "sample_valid": true,
+      "sha256": "48ca45972269ccf1177d41500b71e0d42eb4e7eeb488932614450c07e78c05ce",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r28.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "f675c8d89bcb4206bc5758e419610295",
+      "sample_valid": true,
+      "sha256": "3205591dd30fe1b4277558b070da65a16e078e154030d9cdbc0a2121794a348a",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r29.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "14969493e78b451bb3d7531f69858066",
+      "sample_valid": true,
+      "sha256": "410cb98e0e3413ab5a46cf4cc4614bff907fe195827f73802e23713941cf01b6",
+      "success": true
+    },
+    {
+      "path": "/home/vagrant/rust-benchmark-api/benchmarks/cold-start/results/official/docker/r30.json",
+      "phase": "official",
+      "publication_confirmed": true,
+      "sample_id": "cc5f3025edfc4f4fb9be60f0d9d57959",
+      "sample_valid": true,
+      "sha256": "b0396b3abc25ebe2cf6422383bab940d7894fc940dff6ed27cba79203deb03f7",
+      "success": false
+    }
+  ],
+  "finished_at": "2026-11-09T22:08:54.683426+00:00",
+  "harness_sha256": "95d135af7164f0e4c36bd412ca3ccc4e12846b9be70034b7bdbc86c7b9c8bdcc",
+  "host": {
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "cpu_count": 2,
+    "hostname": "benchmark-docker",
+    "loadavg_before_stabilization": "0.17 0.04 0.04 1/136 2007",
+    "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+    "python": "3.10.12 (main, Jul 15 2026, 23:40:17) [GCC 11.4.0]",
+    "uid": 1000,
+    "uname": [
+      "Linux",
+      "benchmark-docker",
+      "5.15.0-190-generic",
+      "#200-Ubuntu SMP Fri Aug 7 15:06:04 UTC 2026",
+      "x86_64",
+      "x86_64"
+    ]
+  },
+  "measurement_definition": "lançamento de processo/runtime até resposta HTTP completa e válida; host e caches aquecidos por uma execução de condicionamento; Docker inclui sudo, CLI, criação e publicação de porta",
+  "mode": "official",
+  "real_failures": 3,
+  "runtime_provenance": {
+    "docker_binary_hash_verified": false,
+    "docker_image": {
+      "architecture": "amd64",
+      "cmd": null,
+      "entrypoint": [
+        "/app/rust-benchmark-api"
+      ],
+      "env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "RUST_BENCHMARK_ADDRESS=0.0.0.0:3000"
+      ],
+      "id": "sha256:1df15a150099d4d5258f2b68851debcfdd9e6295766a1f9ff76c347cab948015",
+      "os": "linux",
+      "user": "10001:10001"
+    },
+    "docker_version": {
+      "Client": {
+        "ApiVersion": "1.55",
+        "Arch": "amd64",
+        "BuildTime": "Wed Aug  5 18:28:48 2026",
+        "Context": "default",
+        "DefaultAPIVersion": "1.55",
+        "GitCommit": "a7dcaa6",
+        "GoVersion": "go1.26.5",
+        "Os": "linux",
+        "Platform": {
+          "Name": "Docker Engine - Community"
+        },
+        "Version": "29.7.2"
+      },
+      "Server": {
+        "ApiVersion": "1.55",
+        "Arch": "amd64",
+        "BuildTime": "2026-08-05T18:28:48.000000000+00:00",
+        "Components": [
+          {
+            "Details": {
+              "ApiVersion": "1.55",
+              "Arch": "amd64",
+              "BuildTime": "Wed Aug  5 18:28:48 2026",
+              "Experimental": "false",
+              "GitCommit": "6a43e3d",
+              "GoVersion": "go1.26.5",
+              "KernelVersion": "5.15.0-190-generic",
+              "MinAPIVersion": "1.40",
+              "Module": "github.com/moby/moby/v2",
+              "ModuleVersion": "v2.0.0+unknown",
+              "Os": "linux"
+            },
+            "Name": "Engine",
+            "Version": "29.7.2"
+          },
+          {
+            "Details": {
+              "GitCommit": "db8809540e1a7a9da5d518876894933ff55692ab"
+            },
+            "Name": "containerd",
+            "Version": "v2.3.4"
+          },
+          {
+            "Details": {
+              "GitCommit": "v1.4.3-0-gbb14dabe"
+            },
+            "Name": "runc",
+            "Version": "1.4.3"
+          },
+          {
+            "Details": {
+              "GitCommit": "de40ad0"
+            },
+            "Name": "docker-init",
+            "Version": "0.19.0"
+          }
+        ],
+        "GitCommit": "6a43e3d",
+        "GoVersion": "go1.26.5",
+        "KernelVersion": "5.15.0-190-generic",
+        "MinAPIVersion": "1.40",
+        "Os": "linux",
+        "Platform": {
+          "Name": "Docker Engine - Community"
+        },
+        "Version": "29.7.2"
+      }
+    }
+  },
+  "schema_version": 2,
+  "started_at": "2026-11-09T21:40:44.110499+00:00",
+  "stop_signal": null
+}
