@@ -1,5 +1,17 @@
 # Protocolo de Benchmark
 
+> Este documento preserva detalhes do planejamento e de instrumentos do experimento. Para a campanha HTTP descrita na metodologia atual do TCC, o k6 foi executado nativamente no Windows; a seção sobre WSL abaixo registra uma configuração anterior. Os registros de cada campanha identificam o ambiente utilizado.
+
+## Navegação
+
+- [`collectors/`](collectors/README.md): scripts de coleta de recursos.
+- [`cold-start/`](cold-start/README.md): scripts e registros de tempo de inicialização.
+- `results/official/`: CSVs de recursos organizados por modalidade e carga.
+- [`results/temporary/docker/2026-10-18/`](results/temporary/docker/2026-10-18/README.md): tentativas Docker preservadas com documentação da organização histórica.
+- [`../k6/`](../k6/README.md): gerador de carga, fixture e resumos HTTP.
+
+Os arquivos de uma mesma tentativa devem ser identificados por campanha e repetição; o nome `official` por si só não substitui a avaliação da integridade e dos critérios de análise.
+
 Este diretório contém a instrumentação utilizada para a coleta de métricas
 do experimento Local × Docker × WebAssembly/WASI.
 
@@ -35,7 +47,7 @@ Características:
 - SHA-256:
   13328a9d4466f6fd22f55c5b948ce8fc9ec39532f82dc50cd8bb58285ce19d70
 
-A fixture não deve ser modificada durante o experimento.
+A fixture é a referência fixa de imagem do experimento.
 
 ## Ambientes
 
@@ -51,10 +63,10 @@ Ambientes:
 - Docker: aplicação executada em container;
 - WASM: aplicação WebAssembly/WASI executada por Spin/Wasmtime.
 
-Somente uma VM do experimento deve permanecer ligada durante cada série
+O protocolo previa somente uma VM do experimento ligada durante cada série
 de medições.
 
-## Gerador de carga
+## Gerador de carga — configuração anterior em WSL
 
 O k6 é executado externamente às VMs, no WSL Ubuntu.
 
@@ -171,8 +183,9 @@ pois o ambiente utilizado não disponibiliza `memory.peak`.
 
 ### WASM
 
-O arquivo `collectors/process-metrics.sh` mede o processo
-`spin trigger http`, que contém a execução do componente WASM/Wasmtime.
+O arquivo `collectors/process-metrics.sh` acompanha o processo Spin selecionado
+para a coleta. A identificação de um PID não demonstra, por si só, a cobertura
+de todos os processos que participam da execução do componente.
 
 São coletados:
 
@@ -211,7 +224,7 @@ Durante as medições oficiais:
 - não executar mais de uma VM experimental simultaneamente;
 - manter o computador no mesmo perfil de energia.
 
-Dry runs e testes de validação devem ser mantidos separados dos resultados
+Dry runs e testes de validação ficam identificados separadamente dos resultados
 oficiais.
 
 ## Integridade dos instrumentos

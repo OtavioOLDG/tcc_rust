@@ -21,6 +21,8 @@ parte das métricas oficiais do benchmark.
 - `scripts/smoke.js`: executa uma carga mínima sobre `GET /health` para verificar disponibilidade
   básica da API. É utilizado somente como teste auxiliar e não produz resultados oficiais.
 
+- `scripts/health-load.js`: exercita a rota `GET /health` em um cenário de carga auxiliar.
+
 - `scripts/message-load.js`: exerce `GET /message` como carga HTTP leve. Foi utilizado durante o
   desenvolvimento e validações preliminares, mas não faz parte da campanha oficial do TCC.
 
@@ -173,10 +175,9 @@ A fixture oficial possui os seguintes metadados:
 Ela respeita os limites definidos pela API: possui menos de 5 MiB, não excede 4096x4096 pixels e
 utiliza um formato aceito.
 
-A fixture deve permanecer exatamente a mesma durante toda a campanha comparável entre
-Local/Native, Docker e WebAssembly/WASI.
-
-Ela não deve ser baixada, regenerada ou substituída durante as execuções.
+A mesma fixture foi definida como referência para as campanhas comparáveis entre
+Local/Native, Docker e WebAssembly/WASI. O protocolo previa que ela não fosse
+baixada, regenerada ou substituída durante as execuções.
 
 ## Integridade do script oficial
 
@@ -186,8 +187,7 @@ O script oficial utilizado para a geração de carga possui o seguinte SHA-256:
 
 `86e75c52e2cf0bcecd7125aba68cdd69ed30df2690578443982a421878b463ed`
 
-Alterações no script durante uma série comparável devem ser evitadas. Caso uma modificação seja
-necessária, ela deve ser documentada antes da continuação dos experimentos.
+O protocolo prevê preservar o script durante uma série comparável e documentar eventuais alterações.
 
 ## Resultados
 
@@ -234,8 +234,7 @@ Após cada execução são verificados, quando aplicável:
 - maior intervalo entre amostras;
 - integridade dos arquivos por SHA-256.
 
-No resumo JSON do k6, a interpretação de `http_req_failed` deve utilizar principalmente o campo
-`value`.
+No resumo JSON do k6, o campo `value` representa a taxa de falha de `http_req_failed`.
 
 Por exemplo:
 
@@ -259,6 +258,5 @@ Durante a campanha experimental devem permanecer constantes:
 - configuração dos ambientes de execução;
 - metodologia de coleta.
 
-Os arquivos brutos oficiais não devem ser alterados após sua geração.
-
-Quando transferidos entre VM, Windows e WSL, a integridade deve ser conferida por SHA-256.
+Os arquivos brutos oficiais são preservados após sua geração. A conferência de integridade
+por SHA-256 integra a rastreabilidade das transferências entre VM, Windows e WSL.

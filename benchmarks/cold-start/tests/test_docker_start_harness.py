@@ -233,7 +233,8 @@ class HarnessTest(unittest.TestCase):
         self.assertFalse(self.records[-1]['sample_valid'])
     def test_v1_measurement_parameters_and_probe_function_unchanged(self):
         import ast
-        old_path=SOURCE.parent/'harness-versions/docker-start'/h.PARENT_HARNESS_SHA256/SOURCE.name
+        old_path=SOURCE.parent/'harness-versions/docker-start/versao-anterior-v1'/SOURCE.name
+        self.assertEqual(hashlib.sha256(old_path.read_bytes()).hexdigest(),h.PARENT_HARNESS_SHA256)
         old_tree=ast.parse(old_path.read_text());new_tree=ast.parse(SOURCE.read_text())
         names=['OFFICIAL_REPETITIONS','PILOT_REPETITIONS','STABILIZATION_SECONDS','STARTUP_TIMEOUT_SECONDS',
             'PROBE_TIMEOUT_SECONDS','PROBE_INTERVAL_SECONDS','COOLDOWN_SECONDS','EXPECTED_BODY','DOCKER_IMAGE_ID',

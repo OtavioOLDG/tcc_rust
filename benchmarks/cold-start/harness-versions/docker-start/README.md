@@ -2,10 +2,12 @@
 
 Data: 11/11/2026.
 
+Nota de publicação: arquivos `.sha256` estão excluídos do versionamento atual. As menções a sidecars abaixo descrevem o registro histórico local; eles podem não acompanhar uma cópia obtida pelo Git.
+
 ## Versão anterior preservada
 
 - SHA-256: `ebc2200a70ca54d7e9f13748f063f724d3d3cce546494fce672dc4c7e922fec0`.
-- Arquivo e sidecar originais preservados no subdiretório com esse hash.
+- O arquivo original está em [`versao-anterior-v1/`](versao-anterior-v1/), cujo nome anterior era esse hash. O sidecar local não é versionado.
 - Esquema JSON 3; espera externa por docker stop de sete segundos.
 - O piloto concluído e a campanha interrompida na r13 foram relatados pelo usuário. Seus JSONs não foram reclassificados, apagados ou modificados nesta revisão. A limpeza posterior não valida retroativamente a r13.
 
